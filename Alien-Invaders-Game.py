@@ -122,7 +122,7 @@ def fire_laser():
 #Using pythagerous therom check to see if a collision between two objects has occured
 def isHit(o1,o2): 
     dist=math.sqrt(math.pow(o1.xcor()-o2.xcor(),2)+math.pow(o1.ycor()-o2.ycor(),2))
-    if dist<25: # If the value of distance is less than 15 we will consider that a hit
+    if dist<25: # If the value of distance is less than 25 we will consider that a hit
         return True 
     else: 
         return False 
